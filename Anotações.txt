@@ -1,0 +1,30 @@
+-- Organização:
+    .Projeto
+    .Arquivos de Código
+    .Código em Si
+ - Necessário para manter o entendimento e escalabilidade do projéto,
+ - Manter boas práticas mesmo que o foco não seja o desenvolvimento de jogos.
+
+ .Pastas
+    src -> Pasta onde ficam organizados os arquivos de esenvolvimento do Projeto
+        - audios  -> arquivos de som do projeto
+        - images  -> arquivos de imagem
+        - scripts -> arquivos javascript
+        - styles  -> arquivos de estilo
+        - fonts   -> pasta com arquivos de fontes personalizadas
+    
+*defer => garante que os scripts carreguem após o HTML e o CSS
+*@font-face => para uso de fontes externas não instaladas no computador
+*div.container/main => caixa para englobar os elementos da página para posicioná-los melhor
+*atalhos:
+    tag*numero => cria múltiplas tags. Você coloca a tag, o sinal de vezes e o número de tags que você precisa
+    tag.name => cria a tag com uma classe dentro dela. Você coloca a tag, o ponto e o nome da classe. Utilizando # você cria a tag com um id.
+    alt+shift+seta para baixo => clona o elemento para linha de baixo.
+    emmet => .class>.class[id=""] 
+        .Quando o nome da tag é omitido, é criado divs.
+        .Elementos após o símbolo > são aninhados aos elementos que vem antes dele.
+        .Os colchetes atribuem o id aos elementos que estão junto dele.
+
+-- Tipos de variáveis em jogos.
+    .Views  -> variáveis que irão alterar algo visualmente
+    .Values -> varíaveis que irão alterar valores internos e não visuais    
