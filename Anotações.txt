@@ -26,5 +26,11 @@
         .Os colchetes atribuem o id aos elementos que estão junto dele.
 
 -- Tipos de variáveis em jogos.
-    .Views  -> variáveis que irão alterar algo visualmente
-    .Values -> varíaveis que irão alterar valores internos e não visuais    
+    .Views   -> variáveis que irão alterar algo visualmente
+    .Values  -> varíaveis que irão alterar valores internos e não visuais
+    .Actions -> variáveis que executam funções  
+
+-- Função de inicialização -> Função principal que chama outras funções, pode ser chamada de:
+    .main
+    .init
+    .initialize
